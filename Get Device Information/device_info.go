@@ -12,7 +12,13 @@ func GetDeviceInfo(){
    c, _ := cpu.Info()
    u, _ := host.Info()
   
-  
+    
+  // Unique HostID
+  fmt.Printf("Host ID: %v\n", u.HostID)
+    
+  // Platform 
+  fmt.Printf("Platform: %v\n", u.Platform)
+    
   // Memory
   fmt.Printf("Total memory: %v, Free memory: %v, Used memory: %v\n", v.Total, v.Free, v.Used)
 
