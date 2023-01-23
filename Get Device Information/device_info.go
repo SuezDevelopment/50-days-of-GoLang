@@ -20,7 +20,7 @@ func GetDeviceInfo(){
   fmt.Printf("Platform: %v\n", u.Platform)
     
   // Memory
-  fmt.Printf("Total memory: %v, Free memory: %v, Used memory: %v\n", v.Total, v.Free, v.Used)
+  fmt.Printf("Total memory: %v, Free memory: %v, Used memory: %v", Used Percent:%f%%\n", v.Total, v.Free, v.Used, v.UsedPercent)
 
   // CPU
   fmt.Printf("CPU model: %v, Number of cores: %v\n", c[0].ModelName, c[0].Cores)
