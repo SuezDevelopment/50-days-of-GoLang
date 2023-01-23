@@ -52,3 +52,12 @@ if err = audioTrack.Start(); err != nil {
     log.Fatalf("Failed to start audio track: %v", err)
 }
 
+/*
+
+ToDo:
+Implement functions to handle disconnection, reconnection, and mute-unmute options.
+Make use of github.com/ flashtalking/go-webrtc or github.com/deepch/voice.
+Ensure encryption and authentication.
+
+*/
+
