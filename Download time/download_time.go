@@ -1,5 +1,6 @@
 /*
-The download time depends on several factors such as the speed of the server, network congestion, etc
+The download time depends on several factors such as the speed of the server, network congestion, etc. 
+Upload time is similar to the download time.
 */
 // calculate the estimated download time using the average download speed
 
