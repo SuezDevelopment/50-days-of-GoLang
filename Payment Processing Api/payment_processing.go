@@ -1,3 +1,9 @@
+/*
+Notice: Here I used the stripe-go library to process payments through the Stripe API.
+To use other payment APIs, you'll need to consult the documentation for the specific payment gateway 
+you're using to learn how to process payments through their API.
+*/
+
 package payment_processing
 
 import (
